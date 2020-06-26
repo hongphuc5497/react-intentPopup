@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import './Popup.css';
 import { handleContentLoaded } from '../../utils/index';
 
-
 export default function Popup() {
 	useEffect(() => {
 		handleContentLoaded();
