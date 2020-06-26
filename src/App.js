@@ -1,16 +1,13 @@
-import React from 'react';
-import './App.css';
-
-
+import React from "react";
+import Popup from "./Components/Popup.jsx";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <div id="popup">
-        <h3>Popup!</h3>
-      </div>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Popup />
+		</div>
+	);
 }
 
 export default App;
