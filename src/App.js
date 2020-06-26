@@ -1,5 +1,5 @@
 import React from "react";
-import Popup from "./Components/Popup.jsx";
+import Popup from "./Components/Popup/index.jsx";
 import "./App.css";
 
 function App() {

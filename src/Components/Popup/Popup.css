@@ -1,0 +1,22 @@
+#popup {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  position: relative;
+  top: 50px;
+  z-index: 100;
+
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #862a5c;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, .5);
+
+  transform: scale(.5);
+  transition: transform .2s, opacity .2s, visibility .2s;
+
+  visibility: hidden;
+  opacity: 0;
+}
